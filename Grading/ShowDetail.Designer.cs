@@ -77,7 +77,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label3.Location = new System.Drawing.Point(74, 370);
+            this.label3.Location = new System.Drawing.Point(74, 324);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 21);
             this.label3.TabIndex = 2;
@@ -91,7 +91,7 @@
             this.panelTeacher.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelTeacher.Location = new System.Drawing.Point(78, 95);
             this.panelTeacher.Name = "panelTeacher";
-            this.panelTeacher.Size = new System.Drawing.Size(777, 253);
+            this.panelTeacher.Size = new System.Drawing.Size(777, 208);
             this.panelTeacher.TabIndex = 3;
             // 
             // panelStudent
@@ -100,17 +100,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelStudent.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelStudent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelStudent.Location = new System.Drawing.Point(78, 407);
+            this.panelStudent.Location = new System.Drawing.Point(78, 362);
             this.panelStudent.Name = "panelStudent";
             this.panelStudent.Size = new System.Drawing.Size(777, 253);
             this.panelStudent.TabIndex = 4;
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(908, 98);
+            this.label4.Location = new System.Drawing.Point(908, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 24);
             this.label4.TabIndex = 5;
@@ -118,10 +118,10 @@
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(908, 411);
+            this.label5.Location = new System.Drawing.Point(908, 402);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 24);
             this.label5.TabIndex = 6;
@@ -129,10 +129,10 @@
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(908, 210);
+            this.label6.Location = new System.Drawing.Point(908, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 24);
             this.label6.TabIndex = 7;
@@ -140,10 +140,10 @@
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(908, 522);
+            this.label7.Location = new System.Drawing.Point(908, 466);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 24);
             this.label7.TabIndex = 8;
@@ -151,10 +151,10 @@
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(908, 323);
+            this.label8.Location = new System.Drawing.Point(908, 269);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(185, 24);
             this.label8.TabIndex = 9;
@@ -162,22 +162,22 @@
             // 
             // label9
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("仿宋", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(908, 635);
+            this.label9.Font = new System.Drawing.Font("仿宋", 18F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(908, 530);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(171, 21);
+            this.label9.Size = new System.Drawing.Size(185, 24);
             this.label9.TabIndex = 10;
             this.label9.Text = "学生评委平均分";
             // 
             // teacMaxScore
             // 
-            this.teacMaxScore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.teacMaxScore.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.teacMaxScore.AutoSize = true;
             this.teacMaxScore.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.teacMaxScore.ForeColor = System.Drawing.Color.Blue;
-            this.teacMaxScore.Location = new System.Drawing.Point(1095, 95);
+            this.teacMaxScore.Location = new System.Drawing.Point(1095, 143);
             this.teacMaxScore.Name = "teacMaxScore";
             this.teacMaxScore.Size = new System.Drawing.Size(46, 24);
             this.teacMaxScore.TabIndex = 11;
@@ -185,11 +185,11 @@
             // 
             // teacMinScore
             // 
-            this.teacMinScore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.teacMinScore.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.teacMinScore.AutoSize = true;
             this.teacMinScore.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.teacMinScore.ForeColor = System.Drawing.Color.Blue;
-            this.teacMinScore.Location = new System.Drawing.Point(1095, 207);
+            this.teacMinScore.Location = new System.Drawing.Point(1095, 203);
             this.teacMinScore.Name = "teacMinScore";
             this.teacMinScore.Size = new System.Drawing.Size(46, 24);
             this.teacMinScore.TabIndex = 12;
@@ -197,11 +197,11 @@
             // 
             // teacArgv
             // 
-            this.teacArgv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.teacArgv.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.teacArgv.AutoSize = true;
             this.teacArgv.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.teacArgv.ForeColor = System.Drawing.Color.Blue;
-            this.teacArgv.Location = new System.Drawing.Point(1095, 320);
+            this.teacArgv.Location = new System.Drawing.Point(1095, 266);
             this.teacArgv.Name = "teacArgv";
             this.teacArgv.Size = new System.Drawing.Size(46, 24);
             this.teacArgv.TabIndex = 13;
@@ -209,11 +209,11 @@
             // 
             // studArgv
             // 
-            this.studArgv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.studArgv.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.studArgv.AutoSize = true;
             this.studArgv.Font = new System.Drawing.Font("宋体", 18F);
             this.studArgv.ForeColor = System.Drawing.Color.Blue;
-            this.studArgv.Location = new System.Drawing.Point(1095, 632);
+            this.studArgv.Location = new System.Drawing.Point(1095, 527);
             this.studArgv.Name = "studArgv";
             this.studArgv.Size = new System.Drawing.Size(46, 24);
             this.studArgv.TabIndex = 16;
@@ -221,11 +221,11 @@
             // 
             // studMinScore
             // 
-            this.studMinScore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.studMinScore.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.studMinScore.AutoSize = true;
             this.studMinScore.Font = new System.Drawing.Font("宋体", 18F);
             this.studMinScore.ForeColor = System.Drawing.Color.Blue;
-            this.studMinScore.Location = new System.Drawing.Point(1095, 518);
+            this.studMinScore.Location = new System.Drawing.Point(1095, 462);
             this.studMinScore.Name = "studMinScore";
             this.studMinScore.Size = new System.Drawing.Size(46, 24);
             this.studMinScore.TabIndex = 15;
@@ -233,11 +233,11 @@
             // 
             // studMaxScore
             // 
-            this.studMaxScore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.studMaxScore.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.studMaxScore.AutoSize = true;
             this.studMaxScore.Font = new System.Drawing.Font("宋体", 18F);
             this.studMaxScore.ForeColor = System.Drawing.Color.Blue;
-            this.studMaxScore.Location = new System.Drawing.Point(1095, 407);
+            this.studMaxScore.Location = new System.Drawing.Point(1095, 398);
             this.studMaxScore.Name = "studMaxScore";
             this.studMaxScore.Size = new System.Drawing.Size(46, 24);
             this.studMaxScore.TabIndex = 14;
@@ -250,7 +250,7 @@
             this.finalScore.AutoSize = true;
             this.finalScore.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.finalScore.ForeColor = System.Drawing.Color.Red;
-            this.finalScore.Location = new System.Drawing.Point(649, 676);
+            this.finalScore.Location = new System.Drawing.Point(649, 643);
             this.finalScore.Name = "finalScore";
             this.finalScore.Size = new System.Drawing.Size(127, 33);
             this.finalScore.TabIndex = 17;
@@ -262,11 +262,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(497, 676);
+            this.label10.Location = new System.Drawing.Point(497, 643);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 33);
+            this.label10.Size = new System.Drawing.Size(159, 33);
             this.label10.TabIndex = 18;
-            this.label10.Text = "总得分:";
+            this.label10.Text = "最终得分:";
             // 
             // ShowDetail
             // 

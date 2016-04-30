@@ -13,28 +13,28 @@ namespace Grading
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PublicSettings.title = textBoxTitle.Text.ToString();
-            if (int.TryParse(textBoxStudentNum.Text.ToString(),out PublicSettings.stuCount) == false)
+            PublicMethods.title = textBoxTitle.Text.ToString();
+            if (int.TryParse(textBoxStudentNum.Text.ToString(),out PublicMethods.stuCount) == false)
             {
                 MessageBox.Show("学生人数不正确");
                 return;
             }
-            if (int.TryParse(textBoxTeacherNum.Text.ToString(),out PublicSettings.teacherCount) == false)
+            if (int.TryParse(textBoxTeacherNum.Text.ToString(),out PublicMethods.teacherCount) == false)
             {
                 MessageBox.Show("老师人数不正确");
                 return;
             }
             //PublicSettings.ifShowInTheSecdisplay = checkBox.Checked;
-            PublicSettings.StoreSettings();
+            PublicMethods.StoreSettings();
             Thread.Sleep(200);
             this.Close();
         }
 
         private void Settings_Load(object sender, EventArgs e)
         {
-            textBoxTitle.Text = PublicSettings.title;
-            textBoxTeacherNum.Text = PublicSettings.teacherCount.ToString();
-            textBoxStudentNum.Text = PublicSettings.stuCount.ToString();
+            textBoxTitle.Text = PublicMethods.title;
+            textBoxTeacherNum.Text = PublicMethods.teacherCount.ToString();
+            textBoxStudentNum.Text = PublicMethods.stuCount.ToString();
             //checkBox.Checked = PublicSettings.ifShowInTheSecdisplay;
         }
     }
