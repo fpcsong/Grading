@@ -45,6 +45,8 @@ namespace Grading
                 {
                     dataGridView1.Rows[i].Cells[0].Value = (i + 1).ToString();
                 }
+                //为了在由排名刷新的时候重新保存xls
+                PublicMethods.ExportToExcel(path + "Rank.xls", dataGridView1);
                 //MessageBox.Show();
             }
             catch(Exception ex)
