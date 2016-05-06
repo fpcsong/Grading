@@ -18,6 +18,8 @@ namespace Grading
             panelTeacher.Height = this.Size.Height / 2 - panelTeacher.Location.X - 70;
             panelStudent.Location = new System.Drawing.Point(panelStudent.Location.X, panelTeacher.Height + panelTeacher.Location.Y + 50);
             panelStudent.Height = panelTeacher.Height;
+            panelTeacher.Width = Math.Min(this.Width * 2 / 3, label4.Location.X - 80);
+            panelStudent.Width = panelTeacher.Width;
             label3.Location = new System.Drawing.Point(panelStudent.Location.X, panelStudent.Location.Y - 35);
             label1.Left = (this.Width - label1.Width) / 2;
             label10.Left = (this.Width / 2 - label10.Size.Width + 10);
@@ -84,6 +86,8 @@ namespace Grading
         private void ShowDetail_Load(object sender, EventArgs e)
         {
             panelTeacher.Height = this.Size.Height / 2 - panelTeacher.Location.X - 70;
+            panelTeacher.Width = Math.Min(this.Width * 2 / 3, label4.Location.X - 80);
+            panelStudent.Width = panelTeacher.Width;
             panelStudent.Location = new System.Drawing.Point(panelStudent.Location.X, panelTeacher.Height + panelTeacher.Location.Y + 50);
             panelStudent.Height = panelTeacher.Height;
             label3.Location = new System.Drawing.Point(panelStudent.Location.X, panelStudent.Location.Y - 35);
